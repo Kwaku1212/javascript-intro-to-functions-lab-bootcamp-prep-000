@@ -17,3 +17,7 @@ function logWhisper(string) {
   const spy = string.toLowerCase()
 }
 logWhisper('HELLO')
+
+function sayHiToGrandma(string) {
+  if (string.toUpperCase === toUpperCase)
+}
