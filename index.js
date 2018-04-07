@@ -12,8 +12,8 @@ function logShout(string) {
 }
 logShout('hello')
 
-function logShout(string) {
+function logWhisper(string) {
   console.log(string.toLowerCase())
   const spy = string.toLowerCase()
 }
-logShout('HELLO')
+logWhisper('HELLO')
