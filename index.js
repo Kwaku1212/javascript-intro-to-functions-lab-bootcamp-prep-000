@@ -11,3 +11,9 @@ function logShout(string) {
   const spy = string.toUpperCase()
 }
 logShout('hello')
+
+function logShout(string) {
+  console.log(string.toLowerCase())
+  const spy = string.toLowerCase()
+}
+logShout('HELLO')
